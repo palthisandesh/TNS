@@ -2,11 +2,11 @@ package com.tns.ExceptionHandling;
 
 public class Validate_Age {
 
-	public static void main(String[] args)throws Exception {
+	public static void main(String[] args)throws MyException {
 		// TODO Auto-generated method stub
 		int age=5;
 		if(age<0)
-			throw new Exception("enterd invalid age");
+			throw new MyException("enterd invalid age");
 		else
 			System.out.println("valid");
 
